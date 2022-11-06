@@ -8,29 +8,28 @@
 
     <!--Link Para estilos e scripts-->
     <link rel="stylesheet" href="../Style/landingPageStyle.css">
+    <link rel="stylesheet" href="../Style/mediaquery.css">
     <script src="../Script/landingPageScript.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <section>
-        <nav>
-            <ul>
-                <a href="#">
-                    <li>Link</li>
-                </a>
-                <a href="#">
-                    <li>Link</li>
-                </a>
-                <a href="#">
-                    <li>Link</li>
-                </a>
-                <a href="#">
-                    <li>Link</li>
-                </a>
-                <a href="#">
-                    <li>Link</li>
-                </a>
-            </ul>
-        </nav>
+        <header>
+            <span class="material-icons" id="burger" onclick="clickMenu()">menu</span>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </menu>
+        </header>
+        <main>
+
+        </main>
     </section>
     <footer></footer>
 </body>

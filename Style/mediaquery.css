@@ -1,0 +1,13 @@
+@charset "utf8";
+
+@media screen and (min-width: 768px){ /*Se a tela ultrapassar 768px*/
+    #burger{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+}
