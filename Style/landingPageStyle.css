@@ -1,1 +1,34 @@
 @charset "utf-8";
+
+/*Configuracoes Globais*/
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/*Variaveis das cores e fontes*/
+:root{
+    --azul_claro: #A1C7E0;
+    --azul_medio: #0099DD;
+    --azul_escuro: #026E81;
+    --azul_verde: #00ABBD;
+    --laranja: #FF9933;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--azul_verde);
+}
+
+section{
+    background-color: var(--azul_claro);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
