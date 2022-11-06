@@ -55,18 +55,18 @@ menu > ul{
 }
 
 menu li{
-    width: 250px;
+    
 }
 
 menu > ul > li > a{
-    width: 20%;
+    width: 25%;
     display: block;
     text-decoration: none;
     background-color: #2c3e50;
     color: white;
     text-align: center;
     border-top: 2px solid var(--azul_escuro);
-    padding: 0 50px;
+    padding: 10px;
 }
 
 menu > ul > li > a:hover{
