@@ -109,6 +109,8 @@ div#form{
 div#form iframe{
     height: 100%;
     width: 100%;
+    border: none;
+    border-radius: 10px;
 }
 
 footer{
