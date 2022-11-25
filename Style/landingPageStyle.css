@@ -30,6 +30,7 @@ body{
 
 header{
     width: 100vw;
+    padding: 0 20px;
     background-color: var(--laranja);
 }
 
@@ -71,21 +72,26 @@ menu > ul > li > a{
 }
 */
 
-menu > ul {
-    list-style-type: none;
+menu > ul{
     display: flex;
-    align-items: center;
-    align-self: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 menu > ul > li{
-    display: flex;
-    
+    display: inline-block;
 }
+
+menu > ul > li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
 menu > ul > li > a:hover{
-    background-color: var(--azul_verde);
+    color: lightblue;
 }
 
 section{
@@ -106,12 +112,18 @@ div#form{
     width: 50%;
 }
 
+div#form{
+    height: 90%;
+    width: 100%;
+}
 div#form iframe{
     height: 100%;
     width: 100%;
     border: none;
     border-radius: 10px;
+    overflow: hidden;
 }
+
 
 footer{
     height: 10vh;

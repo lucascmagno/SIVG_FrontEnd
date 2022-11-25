@@ -15,5 +15,20 @@
     menu > ul > li{
         display: inline-block;
     }
-    
+    menu > ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-self: flex-end;
+        align-content: space-between;
+    }
+    menu > ul > li > a{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    div#form > iframe{
+        margin-top: 0px;
+        height: 102%;
+    }
 }
