@@ -47,18 +47,20 @@ header{
 }
 
 menu{
-    display: flex;
     width: 100%;
     height: 50px;
 }
 
-menu > ul{
+/*menu > ul{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     align-content: space-between;
     list-style-type: none;
+}
+menu > ul > li{
+    display: block;
 }
 
 menu > ul > li > a{
@@ -67,7 +69,21 @@ menu > ul > li > a{
     text-align: center;
     border: 1px solid var(--azul_claro);    
 }
+*/
 
+menu > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+menu > ul > li{
+    display: flex;
+    
+}
 menu > ul > li > a:hover{
     background-color: var(--azul_verde);
 }
